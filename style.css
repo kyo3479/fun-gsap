@@ -1,0 +1,64 @@
+@font-face {
+    font-family: NeueMontreal;
+    src: url(fonts/PPNeueMontreal-Medium.otf)
+}
+body{
+    background-color: black;
+    
+}
+html{
+    overscroll-behavior: none;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+#text1{
+    color: white;
+    text-transform: uppercase;
+    font-family: NeueMontreal;
+    padding-top: 800px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    padding-right: 18px;
+    opacity: 0%;
+}
+#verline1{
+    border-left: 1px solid white;
+    transform: translateY(-900px);
+    height: 1000px;
+    
+}
+#verline2{
+    border-left: 1px solid white;
+    transform: translateY(-900px);
+    height: 1000px;
+    
+}
+#horline1{
+    border-bottom: 1px solid white;
+    transform: translateY(-1900px);
+    width: 1920px;
+    
+}
+#horline2{
+    border-bottom: 1px solid white;
+    transform: translateY(-2590px);
+    
+    width: 1920px;
+    
+}
+#text2{
+    color: white;
+    font-size: 400px;
+    text-transform: uppercase;
+    font-family: NeueMontreal;
+    transform: translateY(-3000px);
+}
+#alert{
+    color: white;
+    font-family: NeueMontreal;
+}
